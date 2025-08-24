@@ -5,7 +5,19 @@ body {
   background-color: #f4f6f8;
   color: #333;
 }
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #1f2a44;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
 
+.btn:hover {
+  background-color: #3a4a6b;
+}
 header {
   background-color: #1f2a44;
   color: white;
@@ -36,4 +48,5 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: #e0e0e0;
+
 }
